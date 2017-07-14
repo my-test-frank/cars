@@ -1,8 +1,10 @@
 public class Car {
     public String name;
+    public String color;
 
-    public Car(String name) {
+    public Car(String name, String color) {
         this.name = name;
+        this.color = color;
     }
 
     public String getName() {
@@ -11,5 +13,13 @@ public class Car {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 }
